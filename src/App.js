@@ -1,5 +1,6 @@
 import{useState} from 'react'
 import './App.css';
+import Student from "./components/Student.js"
 
 function App() {
   const [studentData, setStudentData] = useState({students:[
@@ -62,10 +63,22 @@ function App() {
       ]
     }
   ]})
-  console.log(studentData)
+  // console.log(studentData.students)
+const studentArr = studentData.students.map((student, index)=> {
+  return(
+    <div>
+  <Student name={student.name} bio={student.bio} scores={student.scores} key={index}/>
+  </div>
+  )
+})
+
+
   return (
     <div className="App">
-      console.log(studentData)
+    <h3>Hello</h3>
+    <div>
+    {studentArr}
+    </div>
     </div>
   );
 }
