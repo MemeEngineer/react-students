@@ -75,7 +75,7 @@ const studentArr = studentData.students.map((student, index)=> {
 
   return (
     <div className="App">
-    <h3>Hello</h3>
+    <h3>Student App</h3>
     <div>
     {studentArr}
     </div>

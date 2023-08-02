@@ -1,4 +1,5 @@
 import Score from "./Score.js";
+import"./Studnet.css"
 
 function Student(props){
     const {bio,name, scores} = props

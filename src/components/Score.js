@@ -1,4 +1,4 @@
-
+import "./Score.css"
 
 function Score(props){
     const {score, date} = props
