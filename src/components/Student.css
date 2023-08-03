@@ -1,0 +1,19 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    border: 5px solid green;
+    border-radius: 10px;
+   
+}
+
+h2{
+    color: black;
+    
+}
+ .title{
+    background-color: grey;
+ }
+
+ /* .card > div{
+    background-color: yellow;
+} */

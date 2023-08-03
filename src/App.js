@@ -76,7 +76,7 @@ const studentArr = studentData.students.map((student, index)=> {
   return (
     <div className="App">
     <h3>Student App</h3>
-    <div>
+    <div className="container">
     {studentArr}
     </div>
     </div>
